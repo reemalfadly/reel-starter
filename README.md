@@ -1,11 +1,82 @@
+# reel-starter
+
+**A free Claude Code skill for beginner content creators.** Give it an idea, get a reel card that is ready to record.
+
+**مهارة مجانية لـ Claude Code لصانع المحتوى المبتدئ.** تعطيها فكرتك، وتعطيك بطاقة ريل جاهزة للتسجيل.
+
+[English](#english) · [العربية](#العربية)
+
+---
+
+## English
+
+### What you get
+
+| | |
+|---|---|
+| **3 hooks** | Three different openings for your reel, with one recommended and the reason why |
+| **A 20-second script** | A hook, four sentences that each build on the last, and one call to action |
+| **What to film** | 3 or 4 simple shots you can take with your phone |
+| **Caption** | Two or three lines that complete the idea |
+| **Pre-recording check** | Eight questions that confirm the script is clear and honest |
+
+You can also ask it for:
+
+- **Ideas**: 10 ideas for your niche.
+- **A rewrite**: paste your script and it tells you what to change.
+- **A week plan**: 7 varied ideas.
+
+### What it does not do
+
+- It does not invent numbers or studies. Anything it is unsure of is marked `[تأكد: …]` (meaning "verify this") for you to check.
+- It does not promise reach or income.
+- It does not publish, send or schedule anything.
+- It does not edit video or design. Its output is text only.
+- It runs no programs and makes no network calls. It is plain text files you can read in full before using.
+
+### Requirements
+
+- **Claude Code** on your computer (Windows or Mac).
+- The paid Claude subscription that Claude Code requires. The skill itself is free.
+
+### Install (4 steps)
+
+1. Click the green **Code** button at the top of this page and choose **Download ZIP**.
+2. Unzip it. You get a folder named `reel-starter-main`, and inside it a folder named `reel-starter`.
+3. Copy the inner `reel-starter` folder into your skills folder:
+   - **Windows:** `C:\Users\YourName\.claude\skills\`
+   - **Mac:** `~/.claude/skills/`
+
+   If the `skills` folder does not exist, create it.
+4. Close Claude Code and open it again.
+
+The final path should look like this: `.claude/skills/reel-starter/SKILL.md`
+
+### How to use it
+
+Write in your own words, for example:
+
+> My niche is real estate, my audience is young first-time buyers. Write me a reel script about mistakes people make when viewing an apartment.
+
+> Give me 10 content ideas for a beginner fitness account.
+
+> Improve this script: (paste your script)
+
+> A week plan for a cooking account.
+
+If you do not mention your niche, your audience and the language or dialect you speak, it asks. If the idea is missing something essential, it asks one question before writing.
+
+### Language
+
+The skill's instructions and its example are written in Arabic, and it is built to reply in the language and dialect you write in. It has been tested in Arabic only, so English output is untested.
+
+---
+
+## العربية
+
 <div dir="rtl">
 
-# reel-starter · مساعد صانع المحتوى المبتدئ
-
-**عندك فكرة وما تدري شلون تقولها؟**
-هذي مهارة (Skill) مجانية لـ Claude Code. تعطيها فكرتك، وتعطيك **بطاقة ريل** جاهزة للتسجيل.
-
-## شنو تعطيك
+### شنو تعطيك
 
 | | |
 |---|---|
@@ -21,7 +92,7 @@
 - **«حسّن هالسكربت»**: تلصق سكربتك وتقول لك شنو يتعدل.
 - **«خطة أسبوع»**: 7 أفكار منوعة.
 
-## شنو ما تسوي
+### شنو ما تسوي
 
 - ما تخترع أرقام ولا دراسات. المعلومة اللي مو متأكدة منها تعلّمها لك بـ `[تأكد: …]` وانت تتحقق.
 - ما توعدك بانتشار ولا بأرباح.
@@ -29,12 +100,12 @@
 - ما تمنتج ولا تصمم. ناتجها نص بس.
 - ما تشغّل برامج ولا تتصل بالإنترنت. هي ملفات نصية تقدر تقراها كلها قبل لا تستخدمها.
 
-## شنو تحتاج
+### شنو تحتاج
 
 - برنامج **Claude Code** على جهازك (ويندوز أو ماك).
 - اشتراك Claude المدفوع اللي يتطلبه Claude Code. المهارة نفسها مجانية.
 
-## التثبيت (4 خطوات)
+### التثبيت (4 خطوات)
 
 1. فوق بهالصفحة اضغط الزر الأخضر **Code**، واختار **Download ZIP**.
 2. فك الملف المضغوط. بتلقى مجلد اسمه `reel-starter-main`، وداخله مجلد اسمه `reel-starter`.
@@ -47,7 +118,7 @@
 
 المسار النهائي لازم يكون جذي: `.claude/skills/reel-starter/SKILL.md`
 
-## شلون تستخدمها
+### شلون تستخدمها
 
 اكتب بكلامك العادي وبلهجتك، مثل:
 
@@ -61,25 +132,27 @@
 
 إذا ما ذكرت مجالك وجمهورك ولهجتك، تسألك عنهم. وإذا الفكرة ناقصها شي أساسي، تسألك سؤال واحد قبل لا تكتب.
 
-## مثال
+### مثال
 
 بطاقة ريل كاملة من البداية للنهاية: [examples/example.md](reel-starter/examples/example.md)
 
-## الملفات
-
-| الملف | شنو فيه |
-|---|---|
-| [`reel-starter/SKILL.md`](reel-starter/SKILL.md) | التعليمات اللي يمشي عليها Claude |
-| [`reel-starter/reference/hooks.md`](reel-starter/reference/hooks.md) | 12 نوع خطّاف ومتى يصلح كل نوع |
-| [`reel-starter/reference/checklist.md`](reel-starter/reference/checklist.md) | 8 أسئلة قبل التسجيل |
-| [`reel-starter/examples/example.md`](reel-starter/examples/example.md) | مثال كامل |
-
-## الترخيص
-
-MIT. استخدمها وعدّلها وشاركها بحرية.
+</div>
 
 ---
 
-من إعداد **iconReem** · انستقرام [@iconreem](https://www.instagram.com/iconreem)
+## Files · الملفات
 
-</div>
+| File | Contents |
+|---|---|
+| [`reel-starter/SKILL.md`](reel-starter/SKILL.md) | The instructions Claude follows |
+| [`reel-starter/reference/hooks.md`](reel-starter/reference/hooks.md) | 12 hook types and when each one fits |
+| [`reel-starter/reference/checklist.md`](reel-starter/reference/checklist.md) | 8 questions before recording |
+| [`reel-starter/examples/example.md`](reel-starter/examples/example.md) | A complete reel card |
+
+## License · الترخيص
+
+MIT. Use it, change it and share it freely.
+
+---
+
+Made by **iconReem** · Instagram [@iconreem](https://www.instagram.com/iconreem)
