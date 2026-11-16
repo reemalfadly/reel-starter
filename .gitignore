@@ -1,0 +1,7 @@
+node_modules/
+out/
+*cutout*.png
+*_cutout*
+.env*
+*.log
+.DS_Store
