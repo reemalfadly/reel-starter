@@ -20,7 +20,7 @@
 
 <div align="center">
 
-[![ريل تعريف مهارة reel-starter — اضغط تشوف الفيديو](media/preview.gif)](media/demo.mp4)
+[![ريل تعريف مهارة reel-starter — اضغط تشوف الفيديو](media/preview.gif)](https://reemalfadly.github.io/reel-starter/media/watch.html)
 
 ▶️ اضغط على الصورة تشوف الفيديو كامل (29 ثانية)
 
@@ -93,7 +93,7 @@ reel-starter/              المستودع
 ├── README.md              هذا الملف
 ├── CHANGELOG.md
 ├── LICENSE                MIT
-├── media/                 نموذج العرض: demo.mp4 · preview.gif · poster.jpg
+├── media/                 نموذج العرض: demo.mp4 · watch.html · preview.gif · poster.jpg
 └── reel-starter/          ← المجلد اللي تنسخه لمجلد المهارات
     ├── SKILL.md           التعليمات اللي يمشي عليها Claude
     ├── reference/
@@ -114,7 +114,7 @@ reel-starter/              المستودع
 
 <div align="center">
 
-[![reel-starter intro reel — click to watch](media/preview.gif)](media/demo.mp4)
+[![reel-starter intro reel — click to watch](media/preview.gif)](https://reemalfadly.github.io/reel-starter/media/watch.html)
 
 ▶️ Click the image to watch the full video (29 seconds, Arabic voiceover)
 

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>reel-starter · نموذج العرض</title>
+<style>
+  :root { --bg:#14110f; --ink:#f4ece4; --muted:#b9aca0; --accent:#e8704a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif; line-height:1.6; }
+  main { max-width:420px; margin:0 auto; padding:24px 16px 40px; text-align:center; }
+  h1 { font-size:1.25rem; margin:0 0 4px; }
+  p { color:var(--muted); margin:0 0 16px; font-size:.95rem; }
+  video { width:100%; max-height:78vh; border-radius:14px; background:#000; }
+  a { color:var(--accent); }
+  .links { margin-top:16px; font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🎬 reel-starter</h1>
+  <p>اضغط تشغيل. الفيديو بصوته (29 ثانية).</p>
+  <video controls playsinline preload="metadata" poster="poster.jpg">
+    <source src="demo.mp4" type="video/mp4">
+    متصفحك ما يدعم تشغيل الفيديو. <a href="demo.mp4">نزّل الملف</a>.
+  </video>
+  <div class="links">
+    <a href="https://github.com/reemalfadly/reel-starter">الرجوع للمستودع</a>
+    · <a href="demo.mp4" download>تنزيل الفيديو</a>
+  </div>
+</main>
+</body>
+</html>

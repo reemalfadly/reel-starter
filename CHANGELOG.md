@@ -7,6 +7,8 @@
 - Added this changelog.
 - **Demo:** a showcase section in the README with a 29-second sample reel (`media/demo.mp4`), an animated preview (`media/preview.gif`) and a poster frame. The video contains on-screen text, an Arabic voiceover about the skill, and the public handle @iconReem.
 
+- **Video player page** (`media/watch.html`, served by GitHub Pages): GitHub downloads `.mp4` files from the repo instead of playing them, so the README now links to a small page with a video player that plays with sound.
+
 ## 2026-11-12 — English added to the README
 
 - README now has an English section next to the Arabic one, with the four install steps.
